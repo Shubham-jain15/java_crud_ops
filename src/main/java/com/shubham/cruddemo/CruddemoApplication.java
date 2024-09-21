@@ -26,5 +26,6 @@ public class CruddemoApplication {
 		Student student = new Student("Shiv","Shakti","shiva@gmail.com");
 		studentDAO.save(student);
 		System.out.println("Student created");
+		System.out.println("Database Updated");
 	}
 }
